@@ -31,7 +31,8 @@ ul {
 li {
   display: inline-block
   width: 33%;
-  float: middle;
+  float: left;
+  text-align:center;
   margin: 5px auto;
 }
 
