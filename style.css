@@ -33,7 +33,6 @@ li {
   display: inline-block
   width: 33%;
   float: left;
-  text-align:center;
   margin: 5px auto;
 }
 
@@ -41,6 +40,7 @@ a {
   color: #392B58;
   text-decoration: none;
   margin:5px ;
+  text-align:center;
   float: center;
   font-size: 16px;
   font-style: normal;
