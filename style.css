@@ -173,7 +173,9 @@ font-family: Antic Slab;
 font-size: 16px
 margin: 10px auto;
 float: middle;
-padding right: 10px;
+padding right: 10px
+padding top 10px;
+padding bottom
 }
 
 img{
