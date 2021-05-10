@@ -65,7 +65,7 @@ h1, h2 {
 }
 
 p{
-font-family: Antic Slab;
+font-family: 'Antic Slab', serif;
 font-size: 16px
 margin: 10px auto;
 float: middle;
@@ -81,9 +81,12 @@ img{
 }
 
 section{
-  font-family:'Bitter', serif;
-  text-align: center;
-  
+  font-family: 'Antic Slab', serif;
+  font-size: 16px
+  margin: 10px auto;
+  float: middle;
+  padding right: 10px;
+
 }
 
 
