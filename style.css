@@ -170,13 +170,29 @@ a {
   font-weight: bold;
 }
 
+#menu_trigger {
+  display: none;
+}
+
 nav a:hover, p a:hover{
   color: white;
   background: #A28497;
 }
 
+#menu_trigger {
+  display: block;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  }
+
+#menu_nav {
+  display: none;
+  }
+}
+
 h1 {
-  font-family:Montserrat;
+  font-family: "Montserrat"; serif
   font-size: 44px
 }
 
@@ -276,9 +292,25 @@ a {
   font-weight: bold;
 }
 
+#menu_trigger {
+  display: none;
+}
+
 nav a:hover, p a:hover{
   color: white;
   background: #A28497;
+}
+
+#menu_trigger {
+  display: block;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  }
+
+#menu_nav {
+  display: none;
+  }
 }
 
 h1 {
