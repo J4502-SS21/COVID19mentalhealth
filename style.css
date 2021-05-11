@@ -35,14 +35,14 @@ nav {
 
 ul {
   list-style: none;
-  text-align:center;
+  text-align: center;
 
 }
 
 li {
   display: inline-block
   width: 33%;
-  float: left;
+  float: center;
   margin: 5px auto;
 }
 
@@ -92,7 +92,7 @@ h1 {
 }
 
 h2 {
-  font-size: 18px
+  font-size: 14px
 }
 
 h1, h2 {
@@ -104,6 +104,7 @@ font-family: 'Antic Slab', serif;
 font-size: 16px
 margin: 10px auto;
 float: middle;
+padding top: 10px
 padding right: 25px;
 }
 
@@ -123,7 +124,7 @@ section{
   font-size: 24px
   margin: 10px; auto;
   float: middle;
-  padding-top: 25px;
+  padding-top: 10px;
 
 }
 
@@ -370,6 +371,9 @@ section{
   background:#C0EAD0;
   text-align: center;
   color: #C0EAD0
-  align: center
-  padding-bottom: 5px;
+  font-size: 24px
+  padding-top: 10px;
+  padding-bottom: 20px;
+  box-shadow: 1px 1px 1px black;
+
 }
