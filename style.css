@@ -15,14 +15,17 @@ body.index {
 
 .terms1{
     color: white;
-    background:#green;
+    background:green;
     padding-top: 10px;
     padding-bottom: 10px;
+    border-top: 3px solid #purple;
+    border-bottom: 3px solid #purple;
+    border-left: 3px solid #purple;
+    border-right: 3px solid #purple;
     width: 100%;
   box-sizing: border-box;
   margin-right: 2rem;
 }
-
 
 
 nav {
