@@ -65,6 +65,14 @@ nav a:hover, p a:hover{
   background: #A28497;
 }
 
+@media all and (max-width: 600px) {
+nav ul {
+flex-direction: column;
+}
+nav ul li {
+text-align: center;
+}
+
 #menu_trigger {
   display: block;
   position: absolute;
@@ -186,6 +194,14 @@ nav a:hover, p a:hover{
   right: 0px;
   }
 
+  @media all and (max-width: 600px) {
+  nav ul {
+  flex-direction: column;
+  }
+  nav ul li {
+  text-align: center;
+  }
+
 #menu_nav {
   display: none;
   }
@@ -294,6 +310,15 @@ a {
 
 #menu_trigger {
   display: none;
+}
+
+
+@media all and (max-width: 600px) {
+nav ul {
+flex-direction: column;
+}
+nav ul li {
+text-align: center;
 }
 
 nav a:hover, p a:hover{
