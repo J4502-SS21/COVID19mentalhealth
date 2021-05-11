@@ -13,6 +13,17 @@ body.index {
   padding-top:40px
 }
 
+.terms1{
+    color: white;
+    background:#green;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+  box-sizing: border-box;
+  margin-right: 2rem;
+}
+
+
 
 nav {
   font-family: 'Roboto Slab', serif;
