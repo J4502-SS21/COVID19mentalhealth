@@ -19,8 +19,6 @@ body.index {
     padding-top: 10px;
     padding-bottom: 10px;
     width: 100%;
-  box-sizing: border-box;
-  margin-right: 2rem;
 }
 
 
@@ -58,10 +56,27 @@ a {
   font-weight: bold;
 }
 
+#menu_trigger {
+  display: none;
+}
+
 nav a:hover, p a:hover{
   color: white;
   background: #A28497;
 }
+
+#menu_trigger {
+  display: block;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  }
+
+#menu_nav {
+  display: none;
+  }
+}
+
 
 h1 {
   font-family: 'Montserrat', serif;
@@ -211,6 +226,8 @@ section{
 
 }
 
+/*New page - data*/
+
 body.data {
   background:#white;
   text-align: center;
@@ -271,13 +288,10 @@ h1 {
 
 h2 {
   font-family: "Montserrat"; serif
-  font-size: 18px
-  text-align: right
+  font-size: 16px
+  text-align: center
 }
 
-h1, h2 {
-  font-weight: bold;
-}
 
 p{
 font-family: Antic Slab;
@@ -290,100 +304,15 @@ padding right: 10px;
 img{
   margin: 10px; auto;
   width: 50%;
-  max-width: 300px;
-  min-width: 150px;
+  max-width: 500px;
+  min-width: 250px;
   padding-bottom: 50px
 }
 
 section{
-
-}
-
-
-
-body.changes {
   background:#C0EAD0;
   text-align: center;
   color: #C0EAD0
-  margin: 0px;
-  width: 100%;
+  align: center
   padding-bottom: 5px;
-  font-family:'Bitter', serif;
-}
-
-.header {
-  text-align:center;
-  padding-top:40px
-}
-
-nav {
-  font-family: 'Roboto Slab', serif;
-  color: #392B58;
-  background: #A28497;
-  border-bottom: 0px solid white;
-  width:100%;
-  margin: 0px;
-  display: inline-block;
-}
-
-ul {
-  list-style: none;
-  text-align:center;
-
-}
-
-li {
-  display: inline-block
-  width: 33%;
-  float: left;
-  margin: 5px auto;
-}
-
-a {
-  color: #392B58;
-  text-decoration: none;
-  margin:5px ;
-  text-align:center;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: bold;
-}
-
-nav a:hover, p a:hover{
-  color: white;
-  background: #A28497;
-}
-
-h1 {
-  font-family:Montserrat;
-  font-size: 44px
-}
-
-h2 {
-  font-family: 'Roboto Slab', serif;
-  font-size: 18px
-}
-
-h1, h2 {
-  font-weight: bold;
-}
-
-p{
-font-family: Antic Slab;
-font-size: 16px
-margin: 10px auto;
-float: middle;
-padding right: 10px;
-}
-
-img{
-  margin: 10px; auto;
-  width: 50%;
-  max-width: 300px;
-  min-width: 150px;
-  padding-bottom: 50px
-}
-
-section{
-
 }
