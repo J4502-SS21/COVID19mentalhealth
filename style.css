@@ -265,12 +265,14 @@ nav a:hover, p a:hover{
 }
 
 h1 {
-  font-family:Montserrat;
+  font-family: "Montserrat"; serif
   font-size: 44px
 }
 
 h2 {
+  font-family: "Montserrat"; serif
   font-size: 18px
+  text-align: right
 }
 
 h1, h2 {
