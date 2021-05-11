@@ -13,6 +13,17 @@ body.index {
   padding-top:40px
 }
 
+.terms1 {
+  font-family: 'Roboto Slab', serif;
+  color: #392B58;
+  background: #A28497;
+  border-bottom: 0px solid white;
+  width:100%;
+  margin: 0px;
+  display: inline-block;
+
+}
+
 nav {
   font-family: 'Roboto Slab', serif;
   color: #392B58;
@@ -93,6 +104,7 @@ section{
 }
 
 
+/*New page - help*/
 
 body.help {
   background:#C0EAD0;
